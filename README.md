@@ -40,6 +40,10 @@ Digite valores com vírgula ou ponto decimal, sem separador de milhar. Para expe
 - `MiniBitcoin.Console/Program.cs` configura a sessão e inicia o menu. `ConsoleMenu.cs` recebe os fluxos de entrada e saída para permitir testes automatizados.
 - `MiniBitcoin.Tests/` cobre carteira, negociação, extrato, patrimônio e interação com o menu.
 
+## Contribuição
+
+Veja o [guia de contribuição](CONTRIBUTING.md) para corrigir erros, validar mudanças e enviar um pull request.
+
 ## Histórico de desenvolvimento
 
 Os commits `test(...)` registram a fase em que a suíte da etapa falhava, e os commits `feat(...)` seguintes registram a implementação validada. A ponta de `main` contém a suíte completa. Confira a sequência com `git log --oneline --reverse`.
