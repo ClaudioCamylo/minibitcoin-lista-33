@@ -11,6 +11,8 @@ public sealed class BitcoinExchange
 
     public Wallet Wallet { get; }
     public decimal Quote { get; private set; }
+    public IReadOnlyList<Transaction> History => throw new NotImplementedException();
+    public decimal PortfolioValue => throw new NotImplementedException();
 
     public void UpdateQuote(decimal quote)
     {
