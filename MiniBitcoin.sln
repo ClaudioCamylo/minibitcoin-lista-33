@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBitcoin.Console", "MiniBitcoin.Console\MiniBitcoin.Console.csproj", "{01F1C234-F8BA-46DE-915C-FD8B722BB90E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBitcoin.Tests", "MiniBitcoin.Tests\MiniBitcoin.Tests.csproj", "{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Debug|x64.Build.0 = Debug|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Debug|x86.Build.0 = Debug|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Release|x64.ActiveCfg = Release|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Release|x64.Build.0 = Release|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Release|x86.ActiveCfg = Release|Any CPU
+		{01F1C234-F8BA-46DE-915C-FD8B722BB90E}.Release|x86.Build.0 = Release|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Debug|x64.Build.0 = Debug|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Debug|x86.Build.0 = Debug|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Release|x64.ActiveCfg = Release|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Release|x64.Build.0 = Release|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{03864909-DAE5-4151-AE5B-C1A41A0FC4FD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
