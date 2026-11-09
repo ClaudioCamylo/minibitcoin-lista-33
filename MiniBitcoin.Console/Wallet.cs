@@ -25,6 +25,33 @@ public sealed class Wallet
         BitcoinBalance = BalanceAfterDebit(BitcoinBalance, amount);
     }
 
+    internal void ApplyPurchase(decimal totalBrl, decimal bitcoinAmount)
+    {
+        var brlAfter = BalanceAfterDebit(BrlBalance, totalBrl);
+        var bitcoinAfter = BalanceAfterCredit(BitcoinBalance, bitcoinAmount);
+        BrlBalance = brlAfter;
+        BitcoinBalance = bitcoinAfter;
+    }
+
+    internal void ApplySale(decimal totalBrl, decimal bitcoinAmount)
+    {
+        var bitcoinAfter = BalanceAfterDebit(BitcoinBalance, bitcoinAmount);
+        var brlAfter = BalanceAfterCredit(BrlBalance, totalBrl);
+        BitcoinBalance = bitcoinAfter;
+        BrlBalance = brlAfter;
+    }
+
+    private static decimal BalanceAfterCredit(decimal balance, decimal amount)
+    {
+        var result = balance + amount;
+        if (result - balance != amount || result - amount != balance)
+        {
+            throw new OverflowException("O saldo resultante excede a precisão suportada.");
+        }
+
+        return result;
+    }
+
     private static decimal BalanceAfterDebit(decimal balance, decimal amount)
     {
         if (amount > balance)
